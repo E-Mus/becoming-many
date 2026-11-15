@@ -35,10 +35,10 @@
     <link rel="canonical" href="https://e-mus.github.io/becoming-many/">
     <link rel="icon" href="/becoming-many/assets/favicon-B6L-pEcp.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/becoming-many/assets/apple-touch-icon-WMUYAYpS.png">
-    <script type="module" crossorigin src="/becoming-many/assets/index-hDyI6fT5.js"></script>
+    <script type="module" crossorigin src="/becoming-many/assets/index-YTDO_l5j.js"></script>
     <link rel="modulepreload" crossorigin href="/becoming-many/assets/Tone-CL1DAHxU.js">
     <link rel="modulepreload" crossorigin href="/becoming-many/assets/three.core-SeG8ZZoG.js">
-    <link rel="stylesheet" crossorigin href="/becoming-many/assets/index-BPMGitqo.css">
+    <link rel="stylesheet" crossorigin href="/becoming-many/assets/index-4lWUU2XG.css">
   </head>
   <body>
     <!-- The real experience renders here from the start; the menu draws its
@@ -405,6 +405,21 @@
         data-action="back"
         data-i18n="back"
       ></button>
+      <!-- On a phone the legal links close the credits instead of floating
+           over them. -->
+      <nav class="legal-links legal-links--inline" aria-label="Legal">
+        <button
+          type="button"
+          data-action="imprint"
+          data-i18n="imprint"
+        ></button>
+        <span aria-hidden="true">·</span>
+        <button
+          type="button"
+          data-action="privacy"
+          data-i18n="privacy"
+        ></button>
+      </nav>
     </section>
 
     <section class="screen glow legal" data-screen="imprint">
@@ -500,6 +515,22 @@
         data-i18n="backToMenu"
       ></button>
     </section>
+
+    <!-- On a phone, pages taller than the screen keep a way back in the
+         corner, where the gear sits in the experience. -->
+    <button
+      type="button"
+      class="app-back"
+      data-action="back"
+      data-app-back
+      data-i18n-label="back"
+    >
+      <!-- lucide "arrow-left", ISC licence -->
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="m12 19-7-7 7-7"></path>
+        <path d="M19 12H5"></path>
+      </svg>
+    </button>
 
     <!-- Legal notice and privacy, one click away from every menu screen
          (inside the experience: gear, then here). -->
