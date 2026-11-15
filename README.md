@@ -4,5 +4,5 @@ The start menu and the experience, built as a static site and served by
 GitHub Pages at https://e-mus.github.io/becoming-many/.
 
 Built from https://github.com/Strehk/becoming-many (branch
-feat/web-release, commit 079f2bd) with
+feat/web-release, commit 98e9dac) with
 `bunx vite build -c web/vite.config.js`.
