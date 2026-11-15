@@ -35,10 +35,10 @@
     <link rel="canonical" href="https://e-mus.github.io/becoming-many/">
     <link rel="icon" href="/becoming-many/assets/favicon-B6L-pEcp.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/becoming-many/assets/apple-touch-icon-WMUYAYpS.png">
-    <script type="module" crossorigin src="/becoming-many/assets/index-BvktBxUD.js"></script>
+    <script type="module" crossorigin src="/becoming-many/assets/index-DLPqQ2vV.js"></script>
     <link rel="modulepreload" crossorigin href="/becoming-many/assets/Tone-CL1DAHxU.js">
     <link rel="modulepreload" crossorigin href="/becoming-many/assets/three.core-SeG8ZZoG.js">
-    <link rel="stylesheet" crossorigin href="/becoming-many/assets/index-gLRn6xqi.css">
+    <link rel="stylesheet" crossorigin href="/becoming-many/assets/index-DSYgcQ2D.css">
   </head>
   <body>
     <!-- The real experience renders here from the start; the menu draws its
@@ -413,12 +413,14 @@
 
     <section class="screen glow" data-screen="credits">
       <div data-credits-slot></div>
-      <button
-        type="button"
-        class="back"
-        data-action="back"
-        data-i18n="back"
-      ></button>
+      <button type="button" class="back credits-back" data-action="back">
+        <!-- lucide "arrow-left", ISC licence -->
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m12 19-7-7 7-7"></path>
+          <path d="M19 12H5"></path>
+        </svg>
+        <span data-i18n="backToMenu"></span>
+      </button>
       <!-- On a phone the legal links close the credits instead of floating
            over them. -->
       <nav class="legal-links legal-links--inline" aria-label="Legal">
